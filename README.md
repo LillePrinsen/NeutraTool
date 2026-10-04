@@ -49,20 +49,10 @@ NeutraTool is a lightweight, single-launcher Windows utility that replaces a doz
 4. Click **Yes** on the UAC prompt
 5. Done
 
-**Clone via Git**
+**Stable Branch**
 
 ```powershell
-git clone https://github.com/LillePrinsen/NeutraTool.git
-cd NeutraTool
-.\NeutraTool.bat
-```
-
-**Direct download (no Git)**
-
-```powershell
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/LillePrinsen/NeutraTool/main/NeutraTool.bat" -OutFile "NeutraTool.bat"
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/LillePrinsen/NeutraTool/main/NeutraTool.ps1" -OutFile "NeutraTool.ps1"
-.\NeutraTool.bat
+irm https://raw.githubusercontent.com/LillePrinsen/NeutraTool/main/NeutraTool.ps1 | iex
 ```
 
 ## Usage
